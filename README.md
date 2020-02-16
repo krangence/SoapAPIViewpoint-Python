@@ -13,7 +13,7 @@ SOAP API for Viewpoint, using python. See _Instructions for usage_ section below
 
 > _viewpoint.get_business_units()_ 
 
- #### ** Project / Projects ** information. 
+ #### **Project / Projects** information. 
 
 _Note: Will need Business Unit ID to run the below command. Business Unit ID can be obtained from the above command._
 > _viewpoint.get_projects('0000')_ 
@@ -27,7 +27,7 @@ _viewpoint.get_business_units()[0]['Name']_
 ## Form Examples
 
 ### _Forms_ filtering for a specific time.
-** Note ** : _This will only return a maximum of a 3 month period._
+**Note** : _This will only return a maximum of a 3 month period._
 >  _viewpoint.get_forms('12680','2010-01-01','2020-02-15' )_ 
 
 Example of status code, returned stating date range is out of range.
